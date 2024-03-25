@@ -1,0 +1,74 @@
+.image-list{
+    width: 500px;
+    height: 500px;
+}
+
+.image-list::-webkit-scrollbar{
+    opacity: 0;
+}
+.image-list::-webkit-scrollbar-thumb{
+    opacity: 0;
+    background-color:#00ABFB ;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.image-list::-webkit-scrollbar-track{
+    opacity: 0;
+}
+
+.user-card-img{
+    width: 70px;
+    height: 70px;
+}
+.user-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+.user-card:hover{
+    transition: 0.6s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.user-full-name{
+    font-size: 30px;
+    color: #0b3a50;
+}
+
+.user-name{
+    color: #00ABFB;
+}
+.repos{
+    border: none;
+}
+
+.user_profida_data{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 50px;
+    background-color: #b5cbd765;
+    padding: 15px;
+    border-radius: 7px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    align-items: center;
+}
+
+.bolded-text{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0b3a50;
+}

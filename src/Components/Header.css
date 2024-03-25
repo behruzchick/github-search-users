@@ -1,0 +1,8 @@
+.search-wrappe{
+    background-color: rgba(3, 3, 40, 0.947);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
